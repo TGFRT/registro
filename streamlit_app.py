@@ -3,7 +3,7 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
 # Mostrar Título y Descripción
-st.title("Portal de Gestión de Proveedores")
+st.title("Inicio de sesión")
 
 # Establecer conexión con Google Sheets
 conn = st.experimental_connection("gsheets", type=GSheetsConnection)
