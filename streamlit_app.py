@@ -3,7 +3,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 import pandas as pd
 
-# Cargar las credenciales directamente
+# Cargar las credenciales desde los secretos de Streamlit
 secrets = {
     "project_id": "login-437414",
     "private_key_id": "c306e0c35281bfc8efa51fb01d8a0bafaa349658",
